@@ -12,8 +12,12 @@ const Hero = () => {
             Art & Life, The Colors & The Chords...
             </h1>
             <p className="py-5 text-xl leading-normal text-darkblue-600 lg:text-xl xl:text-2xl dark:text-yellow-700">
-            Am Currently Minting My Candy Machine Styled, Digital & Abstract, Pilot K.i.t.e Collection, on Solana's BlockChain! Home to The Digital Art's!
-            Token Mint is Live on JUP.AG P.A._EtYGHRkV9ZW7oAhNvspktvPdb4nxPq1UDBBNCpvwjups
+            Am Currently Minting: Candy Machine Styled Launch K.i.t.e. NFT<br />
+            Digital & Abstract, Generative Art, Progressive<br />
+            Pilot Coin & K.i.t.e Collection on Solana BlockChain<br />
+            Home for The Digital Art's...<br />
+            Token Mint is Live on Jup.ag<br />
+            P.A.EtYGHRkV9ZW7oAhNvspktvPdb4nxPq1UDBBNCpvwjups
             </p>
             
             <div className="flex flex-col items-start space-y-3 sm:space-x-3 sm:space-y-0 sm:items-center sm:flex-row">
@@ -69,6 +73,7 @@ const Hero = () => {
 }
 
 export default Hero;
+
 
 
 
