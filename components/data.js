@@ -28,7 +28,7 @@ const benefitOne = {
 
 const benefitTwo = {
   title: "The Windows of Life",
-  desc: "A highlighted section of Space, carved for The Art's",
+  desc: "A highlighted section of Space, Carving Art's",
   image: benefitTwoImg,
   bullets: [
     {
@@ -46,4 +46,5 @@ const benefitTwo = {
 
 
 export {benefitOne, benefitTwo};
+
 
