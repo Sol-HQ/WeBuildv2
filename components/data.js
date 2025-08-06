@@ -10,7 +10,7 @@ import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
   title: "Lighten it Up",
-  desc: "This Space pursuades reflections, the first light of the day, and that of the evening.", 
+  desc: "Space pursuades Contemplation & Reflection, Sounds on the first light, and that of the latter...", 
   image: benefitOneImg,
   bullets: [
     {
@@ -46,6 +46,7 @@ const benefitTwo = {
 
 
 export {benefitOne, benefitTwo};
+
 
 
 
