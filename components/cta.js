@@ -12,11 +12,11 @@ const Cta = () => {
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
             Limited Collection Of Digital Pilot K.i.t.e. NFT's<br />
-            Deployed and Tracking Live Token<br /> 
-            MInt on Jup.ag using Jup Studio
+            Mint & Tracking of PILOT Token<br />
+            EtYGHRkV9ZW7oAhNvspktvPdb4nxPq1UDBBNCpvwjups
           </p>
         </div>
-        <div className="flex-shrink-0 w-full text-center lg:w-auto">
+        <div className="flex flex-col mt-6 items-start space-y-3 sm:space-x-3 sm:space-y-0 sm:items-center sm:flex-row">
           <a
             href="https://www.affirmamint.cloud"
             target="_blank"
@@ -40,6 +40,7 @@ const Cta = () => {
 }
 
 export default Cta;
+
 
 
 
