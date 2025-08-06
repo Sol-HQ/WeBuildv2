@@ -8,7 +8,7 @@ const Cta = () => {
         <div className="flex-grow text-center lg:text-left">
           <h2 className="text-2xl font-medium lg:text-3xl">
             K.i.t.e. NFT Collection Mint... is LIVE
-            Pilot Coin "High Flyers" Coin Mint... is LIVE
+            Pilot "High Flyers" Coin Mint... is LIVE
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
             Limited Collection Of Digital Pilot K.i.t.e. NFT's On The Solana Blockchain
@@ -46,6 +46,7 @@ const Cta = () => {
 }
 
 export default Cta;
+
 
 
 
