@@ -26,9 +26,9 @@ const Home = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Getting The Grip"
+        pretitle="Getting Of The Grip"
         title=" Then The Gripping, of The Grasp!">
-        Life, Soundness, Truth, Family, Philosophy, the Color's, the Canvas's...   The, 'Artist Pallet...
+        Life, Soundness, Truth, Family, Philosophy, The Color's, The Canvas's...   Thee, 'Artist Pallet...
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
@@ -37,17 +37,17 @@ const Home = () => {
         pretitle="Coming Soon, The Video Verse's"
         title="...Elements of Light & Flight...">
         So,
-        Just like Mike, - In the beginning. In Living Color. Custom Kite's & The Stories They Tell!
+        Just like Mike, ~In the beginning. In Living Color. And Soon: With Custom Kite's, & Custom Art, Oh, The Stories they shall Tell, Custom as well...
       </SectionTitle>
       <Video /> 
       <SectionTitle
         pretitle="Testimonials"
         title="Your Stories Here">
-        Storie's and Testimonies, The Mountain's and The Valley's
+        Stories, Art, Videos and Testimonies, The Mountain's and The Valley's
       </SectionTitle>
       <Testimonials />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Questions...
+        Questions Are Welcome...
       </SectionTitle>
       <Faq />
       <Footer />
@@ -57,4 +57,5 @@ const Home = () => {
 }
 
 export default Home;
+
 
