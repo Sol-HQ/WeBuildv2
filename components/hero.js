@@ -28,7 +28,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener"
                 className="flex items-center space-x-2 text-orange-900 dark:text-gray-300">
-                <span> Optional Data Storage 200+yrs with ARW/Cloud!</span>
+                <span> 4 of 24 Available, Limited Metric 1SOL 1JUP</span>
               </a>
             </div>
           </div>
@@ -52,6 +52,7 @@ const Hero = () => {
 }
 
 export default Hero;
+
 
 
 
