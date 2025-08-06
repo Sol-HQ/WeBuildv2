@@ -9,35 +9,35 @@ import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Lighten it Up",
-  desc: "Space pursuades Contemplation & Reflection, Sounds on the first light, and that of the latter...", 
+  title: "Light Work",
+  desc: "Space Pursuades Contemplation & Reflection, Sounds on the first light, and that of the latter...", 
   image: benefitOneImg,
   bullets: [
     {
-      title: "Art, Music, Culture, History, Matters of Reality.",
-      desc: "Digitized Curation's!",
+      title: "Art, Music, Culture, History, The Matters of Reality.",
+      desc: "Fields of Opportunity!",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Perspectives...x.y.z.",
-      desc: "Progression and Innovation, a.b.",
+      title: "Perspective's with...x.y.z.",
+      desc: "Progression and Innovation on a.b.c.",
       icon: <ChartBarSquareIcon />,
     },
   ],
 };
 //update august 5
 const benefitTwo = {
-  title: "The Windows of Life through Art & Soul",
-  desc: "A highlighted section of Space, Carving Art's",
+  title: "Windows of Life, Art, & Soul",
+  desc: "A highlighted section of Space, The Carving Art's",
   image: benefitTwoImg,
   bullets: [
     {
       title: "Windows Gallery",
-      desc: "Accepting Artwork for Potential's",
+      desc: "Accepting Artwork's for Potential's",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Custom Works, Wall Pieces/Desktop, Coming Soon:",
+      title: "Custom Works, Wall Pieces/Desktop, Digials, & Physicals, Coming Soon:",
       desc: "Building In Art, with Art, & Custom Digital Innovations",
       icon: <AdjustmentsHorizontalIcon />,
     },
@@ -46,6 +46,7 @@ const benefitTwo = {
 
 
 export {benefitOne, benefitTwo};
+
 
 
 
