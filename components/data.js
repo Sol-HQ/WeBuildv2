@@ -19,8 +19,8 @@ const benefitOne = {
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Perspective's with...x.y.z.",
-      desc: "Progression and Innovation on a.b.c.",
+      title: "Perspectives...",
+      desc: "Progression...x.y.z. Innovation...a.b.c.",
       icon: <ChartBarSquareIcon />,
     },
   ],
@@ -46,6 +46,7 @@ const benefitTwo = {
 
 
 export {benefitOne, benefitTwo};
+
 
 
 
