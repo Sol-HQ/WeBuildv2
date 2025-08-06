@@ -25,7 +25,7 @@ const benefitOne = {
     },
   ],
 };
-
+//update august 5
 const benefitTwo = {
   title: "The Windows of Life",
   desc: "A highlighted section of Space, Carving Art's",
@@ -46,5 +46,6 @@ const benefitTwo = {
 
 
 export {benefitOne, benefitTwo};
+
 
 
