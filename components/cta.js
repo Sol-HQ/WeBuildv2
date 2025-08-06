@@ -11,8 +11,8 @@ const Cta = () => {
             Pilot "High Flyers" Coin Mint... is LIVE
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
-            Limited Collection Of Digital Pilot K.i.t.e. NFT's On The Solana Blockchain
-            Deployed and Tracking Live Token MInt on JUP.AG using Jup Studio
+            Limited Collection Of Digital Pilot K.i.t.e. NFT's
+            Deployed and Tracking Live Token MInt on Jup.ag using Jup Studio
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
@@ -32,13 +32,6 @@ const Cta = () => {
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-blue-900 rounded-md ">
                 Pilot Coin Live 
               </a>
-              <a
-                href="https://jup.ag/tokens/EtYGHRkV9ZW7oAhNvspktvPdb4nxPq1UDBBNCpvwjups"
-                target="_blank"
-                rel="noopener"
-                className="flex items-center space-x-2 text-blue-900 dark:text-blue-300">
-                <span>Pilot Coin Deployed using JupStudio Jup.ag </span>
-              </a>
             </div>
       </div>
     </Container>
@@ -46,6 +39,7 @@ const Cta = () => {
 }
 
 export default Cta;
+
 
 
 
