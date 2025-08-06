@@ -27,24 +27,24 @@ const Testimonials  = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-300 px-10 rounded-2xl py-5 dark:bg-trueGray-800">
             <p className="text-3xl leading-normal ">
-              Str8 FIRE. 
+              board here 
             </p>
             <Avatar
               image={userTwoImg}
-              name="Max Wallah"
-              title="K.O."
+              name=""
+              title=""
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-200 px-10 rounded-2xl py-5 dark:bg-trueGray-800">
             <p className="text-3xl leading-normal ">
-              This is the way...
+              This is the way... board here
             </p>
             <Avatar
               image={userThreeImg}
-              name="The Wave it Sounds"
-              title="Co-founder of this Wave"
+              name="The Wave"
+              title=""
             />
           </div>
         </div>
@@ -85,3 +85,4 @@ function Mark(props) {
 }
 
 export default Testimonials;
+
