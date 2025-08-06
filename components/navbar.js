@@ -9,7 +9,6 @@ const Navbar = () => {
     "Music",
     "Photography",
     "CandyMachine",
-    "Chat",
   ];
 
   return (
@@ -101,3 +100,4 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
