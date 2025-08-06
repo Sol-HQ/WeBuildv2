@@ -65,7 +65,7 @@ const Navbar = () => {
                       </Link>
                     ))}
                     <Link href="https://www.affirmamint.cloud" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
-                        K.i.t.e.NFT 1SOL 1JUP 4/24
+                        K.i.t.e.NFT 1SOL_1JUP 4/24
                     </Link>
                   </>
                 </Disclosure.Panel>
@@ -89,7 +89,7 @@ const Navbar = () => {
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link href="https://www.affirmamint.cloud" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              K.i.t.e. C.M.Mint.023
+              K.i.t.e.NFT 1SOL_1JUP 4/24
           </Link>
 
           <ThemeChanger />
@@ -100,5 +100,6 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
 
 
