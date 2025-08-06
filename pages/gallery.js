@@ -1,16 +1,17 @@
 import Image from "next/image";
 import Navbar from "../components/navbar";
+import { useRouter } from "next/router";
 
 const posts = [
   {
-    title: "Sunset Test",
+    title: "Ein Yo'",
     image: "/img/user1.jpg",
-    content: "Testing sunset photo and description.",
+    content: "One Bridge.",
   },
   {
-    title: "Mountain View",
-    image: "/img/mountain.jpg",
-    content: "A photo from the last trip.",
+    title: "The Wave, It Sets",
+    image: "/img/user3.jpg",
+    content: "Abstract Mix.",
   },
 ];
 
