@@ -3,7 +3,7 @@ import Image from "next/image";
 const posts = [
   {
     title: "Sunset Test",
-    image: "/img/sunset.jpg",
+    image: "public/img/user1.jpg",
     content: "Testing sunset photo and description.",
   },
   {
