@@ -10,8 +10,8 @@ const Cta = () => {
             K.i.t.e.NFT Mint
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
-            4 of 24 Digital Pilot K.i.t.e.NFT's on The Solana Blockchain
-            Deployed and Tracking with Live Token MInt on JUP.AG using Jup Studio
+            Limited Collection Digital Pilot K.i.t.e.NFT's On The Solana Blockchain
+            Deployed and Tracking Live Token MInt on JUP.AG using Jup Studio
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
@@ -45,6 +45,7 @@ const Cta = () => {
 }
 
 export default Cta;
+
 
 
 
