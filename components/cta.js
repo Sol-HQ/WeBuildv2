@@ -7,20 +7,20 @@ const Cta = () => {
       <div className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-white bg-indigo-600 px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl">
         <div className="flex-grow text-center lg:text-left">
           <h2 className="text-2xl font-medium lg:text-3xl">
-            Windows Mint is Live
+            K.i.t.e. CMV Mint
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
-            33 Windows on Solana Blockchain
-            Deployed with TRUFFLE.wtf
+            4 of 24 Digital K.i.t.e.s on The Solana Blockchain
+            Deployed and Tracking
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
           <a
-            href="https://truffle.wtf/project/windows"
+            href="https://www.affirmamint.cloud"
             target="_blank"
             rel="noopener"
             className="inline-block py-3 mx-auto text-lg font-medium text-center text-indigo-600 bg-white rounded-md px-7 lg:px-10 lg:py-5 ">
-            MINT HERE .02 SOL
+            MINT HERE 1SOL 1JUP
           </a>
         </div>
       </div>
@@ -29,3 +29,4 @@ const Cta = () => {
 }
 
 export default Cta;
+
