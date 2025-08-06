@@ -7,12 +7,13 @@ const Cta = () => {
       <div className="flex flex-wrap items-center justify-between w-full max-w-6xl gap-5 mx-auto text-white bg-indigo-600 px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl">
         <div className="flex-grow text-center lg:text-left">
           <h2 className="text-2xl font-medium lg:text-3xl">
-            K.i.t.e. NFT Collection Mint... is LIVE
+            K.i.t.e. NFT Collection Mint... is LIVE<br />
             Pilot "High Flyers" Coin Mint... is LIVE
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
-            Limited Collection Of Digital Pilot K.i.t.e. NFT's
-            Deployed and Tracking Live Token MInt on Jup.ag using Jup Studio
+            Limited Collection Of Digital Pilot K.i.t.e. NFT's<br />
+            Deployed and Tracking Live Token<br /> 
+            MInt on Jup.ag using Jup Studio
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
@@ -39,6 +40,7 @@ const Cta = () => {
 }
 
 export default Cta;
+
 
 
 
