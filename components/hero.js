@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Container from "./container";
 import heroImg from "../public/img/hero.png";
-
+//update august 5
 const Hero = () => {
   return (
     <>
@@ -9,10 +9,10 @@ const Hero = () => {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-700 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-blue-950">
-            The Art's, The Ebb's, and The Flow's...
+            The Art's of life, The Colors & The Chords...
             </h1>
             <p className="py-5 text-xl leading-normal text-darkblue-600 lg:text-xl xl:text-2xl dark:text-yellow-700">
-            Candy Machine K.i.t.e Collection, Solana's Digital Art's!
+            Candy Machine Style Digital K.i.t.e Collection, Solana's Digital Art's!
             </p>
             
             <div className="flex flex-col items-start space-y-3 sm:space-x-3 sm:space-y-0 sm:items-center sm:flex-row">
@@ -28,7 +28,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener"
                 className="flex items-center space-x-2 text-orange-900 dark:text-gray-300">
-                <span> Data Storage 200+yrs ARW/Cloud</span>
+                <span> Optional Data Storage 200+yrs with ARW/Cloud!</span>
               </a>
             </div>
           </div>
@@ -52,4 +52,5 @@ const Hero = () => {
 }
 
 export default Hero;
+
 
