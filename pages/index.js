@@ -28,26 +28,26 @@ const Home = () => {
       <SectionTitle
         pretitle="Getting The Grip"
         title=" Then The Gripping, of The Grasp!">
-        Life, Sound, Truth, Family, Philosophy, the Color's, the Canvas's...   the 'Artist Pallet...
+        Life, Soundness, Truth, Family, Philosophy, the Color's, the Canvas's...   The, 'Artist Pallet...
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <Cta />
       <SectionTitle
-        pretitle="Coming Soon, The Video Verse"
-        title="...Elements of Flight...">
+        pretitle="Coming Soon, The Video Verse's"
+        title="...Elements of Light & Flight...">
         So,
-        Just like Mike, - In the beginning.
+        Just like Mike, - In the beginning. In Living Color. Custom Kite's & The Stories They Tell!
       </SectionTitle>
       <Video /> 
       <SectionTitle
         pretitle="Testimonials"
         title="Your Stories Here">
-        Storie's on Art, The Mountain's and The Valley's
+        Storie's and Testimonies, The Mountain's and The Valley's
       </SectionTitle>
       <Testimonials />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Ahhhhhh.... Obviously, they will come... and that's a good thing.  
+        Questions...
       </SectionTitle>
       <Faq />
       <Footer />
@@ -57,3 +57,4 @@ const Home = () => {
 }
 
 export default Home;
+
