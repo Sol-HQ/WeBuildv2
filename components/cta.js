@@ -20,7 +20,7 @@ const Cta = () => {
             target="_blank"
             rel="noopener"
             className="inline-block py-3 mx-auto text-lg font-medium text-center text-indigo-600 bg-white rounded-md px-7 lg:px-10 lg:py-5 ">
-            MINT HERE 1SOL 1JUP
+            NFT MINT 1SOL & 1JUP
           </a>
         </div>
         <div className="flex flex-col mt-6 items-start space-y-3 sm:space-x-3 sm:space-y-0 sm:items-center sm:flex-row">
@@ -36,7 +36,7 @@ const Cta = () => {
                 target="_blank"
                 rel="noopener"
                 className="flex items-center space-x-2 text-blue-900 dark:text-blue-300">
-                <span>Pilote Coin Deployed with JupStudio on Jup.AG </span>
+                <span>Pilot Coin Deployed using JupStudio Jup.ag </span>
               </a>
             </div>
       </div>
@@ -45,6 +45,7 @@ const Cta = () => {
 }
 
 export default Cta;
+
 
 
 
