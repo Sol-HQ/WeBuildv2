@@ -33,11 +33,11 @@ const benefitTwo = {
   bullets: [
     {
       title: "Windows Gallery",
-      desc: "Accepting Artwork's for Potential's",
+      desc: "Accepting Artwork's for Show & Upcoming Gallery Page",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Custom Works, Wall Pieces/Desktop, Digials, & Physicals, Coming Soon:",
+      title: "Custom Art Works, Wall Pieces/Desktop, Digitals, & Physicals, Coming Soon:",
       desc: "Building In Art, with Art, & Custom Digital Innovations",
       icon: <AdjustmentsHorizontalIcon />,
     },
@@ -46,6 +46,7 @@ const benefitTwo = {
 
 
 export {benefitOne, benefitTwo};
+
 
 
 
