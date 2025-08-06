@@ -22,7 +22,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-green-950 rounded-md ">
-                K.i.t.e. MintLive
+                K.i.t.e.NFT MintLive
               </a>
               <a
                 href="https://www.affirmamint.cloud"
@@ -53,6 +53,7 @@ const Hero = () => {
 }
 
 export default Hero;
+
 
 
 
