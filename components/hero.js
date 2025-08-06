@@ -32,6 +32,22 @@ const Hero = () => {
                 <span> 4 of 24 Available, Limited Metric 1SOL 1JUP</span>
               </a>
             </div>
+            <div className="flex flex-col mt-6 items-start space-y-3 sm:space-x-3 sm:space-y-0 sm:items-center sm:flex-row">
+              <a
+                href="https://jup.ag/tokens/EtYGHRkV9ZW7oAhNvspktvPdb4nxPq1UDBBNCpvwjups"
+                target="_blank"
+                rel="noopener"
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-blue-900 rounded-md ">
+                Pilot Coin
+              </a>
+              <a
+                href="https://jup.ag/tokens/EtYGHRkV9ZW7oAhNvspktvPdb4nxPq1UDBBNCpvwjups"
+                target="_blank"
+                rel="noopener"
+                className="flex items-center space-x-2 text-blue-900 dark:text-blue-300">
+                <span>Pilot Coin</span>
+              </a>
+            </div>
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
@@ -53,6 +69,7 @@ const Hero = () => {
 }
 
 export default Hero;
+
 
 
 
