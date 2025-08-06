@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Navbar from "../components/navbar";
-import { useRouter } from "next/router";
 
 const posts = [
   {
