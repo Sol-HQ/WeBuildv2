@@ -37,7 +37,8 @@ const Home = () => {
         pretitle="Coming Soon, The Video Verse's"
         title="...Elements of Light & Flight...">
         So,
-        Just like Mike, ~In the beginning. In Living Color. And Soon: With Custom Kite's, & Custom Art, Oh, The Stories they shall Tell, Custom as well...
+        Just like Mike, ~In the beginning. In Living Color.<br />
+        Coming Soon: Custom Kite's & Cultured Art, Oh, The Stories they shall tell, custom as well...
       </SectionTitle>
       <Video /> 
       <SectionTitle
@@ -57,5 +58,6 @@ const Home = () => {
 }
 
 export default Home;
+
 
 
