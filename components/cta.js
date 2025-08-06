@@ -7,11 +7,11 @@ const Cta = () => {
       <div className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-white bg-indigo-600 px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl">
         <div className="flex-grow text-center lg:text-left">
           <h2 className="text-2xl font-medium lg:text-3xl">
-            K.i.t.e. NFT Collection Mint... LIVE
-            Pilot Coin "High Flyers" Coin Mint...LIVE
+            K.i.t.e. NFT Collection Mint... is LIVE
+            Pilot Coin "High Flyers" Coin Mint... is LIVE
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
-            Limited Collection Digital Pilot K.i.t.e.NFT's On The Solana Blockchain
+            Limited Collection Of Digital Pilot K.i.t.e. NFT's On The Solana Blockchain
             Deployed and Tracking Live Token MInt on JUP.AG using Jup Studio
           </p>
         </div>
@@ -21,7 +21,7 @@ const Cta = () => {
             target="_blank"
             rel="noopener"
             className="inline-block py-3 mx-auto text-lg font-medium text-center text-indigo-600 bg-white rounded-md px-7 lg:px-10 lg:py-5 ">
-            NFT MINT 1SOL & 1JUP
+            NFT LIVE 1SOL & 1JUP
           </a>
         </div>
         <div className="flex flex-col mt-6 items-start space-y-3 sm:space-x-3 sm:space-y-0 sm:items-center sm:flex-row">
@@ -46,6 +46,7 @@ const Cta = () => {
 }
 
 export default Cta;
+
 
 
 
