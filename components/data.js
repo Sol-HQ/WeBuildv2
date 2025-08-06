@@ -27,7 +27,7 @@ const benefitOne = {
 };
 //update august 5
 const benefitTwo = {
-  title: "The Windows of Life",
+  title: "The Windows of Life through Art & Soul",
   desc: "A highlighted section of Space, Carving Art's",
   image: benefitTwoImg,
   bullets: [
@@ -46,6 +46,7 @@ const benefitTwo = {
 
 
 export {benefitOne, benefitTwo};
+
 
 
 
