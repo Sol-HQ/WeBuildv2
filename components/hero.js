@@ -12,7 +12,7 @@ const Hero = () => {
             The Art's & Life, The Colors & The Chords...
             </h1>
             <p className="py-5 text-xl leading-normal text-darkblue-600 lg:text-xl xl:text-2xl dark:text-yellow-700">
-            Candy Machine Style Digital K.i.t.e Collection, Solana's Digital Art's!
+            Currently Minting My Candy Machine Style, Digital, Abstract, Pilot K.i.t.e Collection, on Solana's BlockChain! Home to The Digital Art's!
             </p>
             
             <div className="flex flex-col items-start space-y-3 sm:space-x-3 sm:space-y-0 sm:items-center sm:flex-row">
@@ -52,6 +52,7 @@ const Hero = () => {
 }
 
 export default Hero;
+
 
 
 
