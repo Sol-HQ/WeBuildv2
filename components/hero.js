@@ -12,7 +12,7 @@ const Hero = () => {
             Art & Life, The Colors & The Chords...
             </h1>
             <p className="py-5 text-xl leading-normal text-darkblue-600 lg:text-xl xl:text-2xl dark:text-yellow-700">
-            Am Currently Minting: Candy Machine Styled Launch K.i.t.e. NFT<br />
+            Minting: Pilot K.i.t.e. NFT's (limited)<br />
             Digital & Abstract, Generative Art, Progressive<br />
             Pilot Coin & K.i.t.e Collection on Solana BlockChain<br />
             Home for The Digital Art's...<br />
@@ -73,6 +73,7 @@ const Hero = () => {
 }
 
 export default Hero;
+
 
 
 
