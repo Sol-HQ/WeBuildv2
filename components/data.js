@@ -27,18 +27,18 @@ const benefitOne = {
 };
 
 const benefitTwo = {
-  title: "Windows Collection",
-  desc: "A highlighted platform with Orbit's, honouring Atmosphere's, and Architechture's, a Web3 test of Virtue, released on TRUFFLE!",
+  title: "The Windows of Life",
+  desc: "A highlighted section of Space, carved for The Art's",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Windows MINT",
-      desc: "Now Live on TRUFFLE!",
+      title: "Windows Gallery",
+      desc: "Accepting Artwork for Potential's",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Custom Properties:",
-      desc: "33 windows there were; and Space there was.",
+      title: "Custom Works, Wall Pieces/Desktop, Coming Soon:",
+      desc: "Building In Art, with Art, & Custom Digital Innovations",
       icon: <AdjustmentsHorizontalIcon />,
     },
   ],
@@ -46,3 +46,4 @@ const benefitTwo = {
 
 
 export {benefitOne, benefitTwo};
+
