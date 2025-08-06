@@ -36,24 +36,6 @@ const Navbar = () => {
                     <span>Affirm</span>
                   </span>
                 </Link>
-                {/* Back/Forward Buttons */}
-                <div className="flex space-x-2 ml-4">
-                  <button
-                    type="button"
-                    onClick={() => router.back()}
-                    className="px-3 py-1 text-gray-600 bg-gray-100 rounded hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700"
-                  >
-                    ← Back
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => router.forward && router.forward()}
-                    className="px-3 py-1 text-gray-600 bg-gray-100 rounded hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700"
-                  >
-                    Forward →
-                  </button>
-                </div>
-                {/* ...rest of your code */}
                 <Disclosure.Button
                   aria-label="Toggle Menu"
                   className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-200 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
@@ -133,5 +115,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
