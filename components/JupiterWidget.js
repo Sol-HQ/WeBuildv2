@@ -25,6 +25,18 @@ export default function JupiterWidget() {
       }
     };
 
+    const script = document.getElementById('jupiter-script');
+    if (script) {
+      script.addEventListener('load', handleScriptLoad);
+    }
+
+    return () => {
+      if (script) {
+        script.removeEventListener('load', handleScriptLoad);
+      }
+    };
+  }, []);
+
   return (
     <>
       <Script
