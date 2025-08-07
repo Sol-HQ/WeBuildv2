@@ -1,9 +1,7 @@
 import Script from 'next/script'
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 
 export default function JupiterWidget() {
-  const [widgetLoaded, setWidgetLoaded] = useState(false)
-
   useEffect(() => {
     const handleScriptLoad = () => {
       if (window.Jupiter) {
@@ -20,22 +18,21 @@ export default function JupiterWidget() {
             initialInputMint: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
             initialOutputMint: 'So11111111111111111111111111111111111111112',
           },
-        });
-        setWidgetLoaded(true);
+        })
       }
-    };
+    }
 
-    const script = document.getElementById('jupiter-script');
+    const script = document.getElementById('jupiter-script')
     if (script) {
-      script.addEventListener('load', handleScriptLoad);
+      script.addEventListener('load', handleScriptLoad)
     }
 
     return () => {
       if (script) {
-        script.removeEventListener('load', handleScriptLoad);
+        script.removeEventListener('load', handleScriptLoad)
       }
-    };
-  }, []);
+    }
+  }, [])
 
   return (
     <>
@@ -49,18 +46,11 @@ export default function JupiterWidget() {
         style={{
           position: 'fixed',
           bottom: 24,
-          left: 24,
+          right: 24,
           zIndex: 10000,
-          width: widgetLoaded ? '400px' : '0',
-          height: widgetLoaded ? '600px' : '0',
-          minHeight: widgetLoaded ? '320px' : '0',
-          background: widgetLoaded ? '#fff' : 'transparent',
-          borderRadius: widgetLoaded ? 12 : 0,
-          boxShadow: widgetLoaded ? '0 2px 12px rgba(0,0,0,0.15)' : 'none',
-          overflow: 'hidden',
-          transition: 'all 0.3s',
+          // No width, height, background, border, etc.
         }}
       />
     </>
-  );
+  )
 }
