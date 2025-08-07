@@ -35,7 +35,6 @@ export default function JupiterWidget() {
           zIndex: 10000,
           minWidth: 320,
           minHeight: 200,
-          background: '#fff', // optional: helps visibility
         }}
       />
     </>
