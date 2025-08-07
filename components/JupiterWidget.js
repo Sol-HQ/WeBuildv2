@@ -1,9 +1,10 @@
 import Script from 'next/script'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 export default function JupiterWidget() {
+  const [widgetLoaded, setWidgetLoaded] = useState(false)
+
   useEffect(() => {
-    // Ensures Jupiter is initialized after the script is loaded
     const handleScriptLoad = () => {
       if (window.Jupiter) {
         window.Jupiter.init({
@@ -19,23 +20,22 @@ export default function JupiterWidget() {
             initialInputMint: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
             initialOutputMint: 'So11111111111111111111111111111111111111112',
           },
-        })
+        });
+        setWidgetLoaded(true);
       }
-    }
+    };
 
-    // Attach script load event
-    const script = document.getElementById('jupiter-script')
+    const script = document.getElementById('jupiter-script');
     if (script) {
-      script.addEventListener('load', handleScriptLoad)
+      script.addEventListener('load', handleScriptLoad);
     }
 
-    // Clean up
     return () => {
       if (script) {
-        script.removeEventListener('load', handleScriptLoad)
+        script.removeEventListener('load', handleScriptLoad);
       }
-    }
-  }, [])
+    };
+  }, []);
 
   return (
     <>
@@ -51,30 +51,16 @@ export default function JupiterWidget() {
           bottom: 24,
           left: 24,
           zIndex: 10000,
-          width: '90vw',
-          maxWidth: 400,
-          height: '60vh',
-          minHeight: 320,
-          background: '#fff',
-          borderRadius: 12,
-          boxShadow: '0 2px 12px rgba(0,0,0,0.15)',
+          width: widgetLoaded ? '400px' : '0',
+          height: widgetLoaded ? '600px' : '0',
+          minHeight: widgetLoaded ? '320px' : '0',
+          background: widgetLoaded ? '#fff' : 'transparent',
+          borderRadius: widgetLoaded ? 12 : 0,
+          boxShadow: widgetLoaded ? '0 2px 12px rgba(0,0,0,0.15)' : 'none',
+          overflow: 'hidden',
+          transition: 'all 0.3s',
         }}
       />
-      <style jsx>{`
-        #jupiter-terminal {
-          transition: all 0.3s;
-        }
-        @media (max-width: 600px) {
-          #jupiter-terminal {
-            left: 5vw;
-            bottom: 5vw;
-            width: 90vw;
-            height: 60vh;
-            min-height: 220px;
-            max-width: 95vw;
-          }
-        }
-      `}</style>
     </>
-  )
+  );
 }
