@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 
 export default function JupiterWidget() {
   useEffect(() => {
-    const tryInit = () => {
+    window.addEventListener('load', () => {
       if (typeof window.Jupiter !== 'undefined') {
         window.Jupiter.init({
           displayMode: 'widget',
@@ -20,7 +20,7 @@ export default function JupiterWidget() {
           },
         })
       }
-    }
+    })
   }, [])
 
   return (
@@ -31,10 +31,8 @@ export default function JupiterWidget() {
         style={{
           position: 'fixed',
           bottom: 24,
-          right: 24,
+          left: 24,
           zIndex: 10000,
-          minWidth: 320,
-          minHeight: 200,
         }}
       />
     </>
