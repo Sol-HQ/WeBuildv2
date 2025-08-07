@@ -6,8 +6,8 @@ import { useRouter } from "next/router";
 
 const navigation = [
   { name: "Gallery", href: "/gallery" },
-  { name: "Music", href: "https://www.affirmamint.cloud" },
-  { name: "Photography", href: "https://www.affirmamint.cloud" },
+  { name: "Music", href: "/music" },
+  { name: "Photography", href: "/photography" },
   { name: "CandyMachine", href: "https://www.affirmamint.cloud" },
 ];
 
@@ -115,6 +115,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
 
