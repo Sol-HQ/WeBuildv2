@@ -52,12 +52,12 @@ const Home = () => {
       </SectionTitle>
       <Faq />
       <Footer />
-      <PopupWidget />
     </>
   );
 }
 
 export default Home;
+
 
 
 
