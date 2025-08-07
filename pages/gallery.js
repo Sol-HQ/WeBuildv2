@@ -4,9 +4,9 @@ import { useRouter } from "next/router";
 
 const posts = [
   {
-    title: "Ein Yo'",
+    title: "Yo'",
     image: "/img/user2q.png",
-    content: "One Bridge.",
+    content: "One Jup...",
   },
   {
     title: "The Wave, It Sets",
