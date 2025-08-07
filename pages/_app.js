@@ -1,6 +1,6 @@
 import { ThemeProvider } from "next-themes";
 import "../css/tailwind.css";
-import JupiterWidget from '../components/JupiterWidget';
+import JupiterWidget from '../components/jupiterwidget';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -12,3 +12,4 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+
