@@ -25,15 +25,30 @@ export default function JupiterWidget() {
       }
     };
 
-    const script = document.getElementById('jupiter-script');
-    if (script) {
-      script.addEventListener('load', handleScriptLoad);
-    }
-
-    return () => {
-      if (script) {
-        script.removeEventListener('load', handleScriptLoad);
-      }
-    };
-  }, 
+  return (
+    <>
+      <Script
+        id="jupiter-script"
+        src="https://terminal.jup.ag/main-v4.js"
+        strategy="afterInteractive"
+      />
+      <div
+        id="jupiter-terminal"
+        style={{
+          position: 'fixed',
+          bottom: 24,
+          left: 24,
+          zIndex: 10000,
+          width: widgetLoaded ? '400px' : '0',
+          height: widgetLoaded ? '600px' : '0',
+          minHeight: widgetLoaded ? '320px' : '0',
+          background: widgetLoaded ? '#fff' : 'transparent',
+          borderRadius: widgetLoaded ? 12 : 0,
+          boxShadow: widgetLoaded ? '0 2px 12px rgba(0,0,0,0.15)' : 'none',
+          overflow: 'hidden',
+          transition: 'all 0.3s',
+        }}
+      />
+    </>
+  );
 }
