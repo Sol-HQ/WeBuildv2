@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 
 export default function JupiterWidget() {
   useEffect(() => {
-    window.addEventListener('load', () => {
+    const tryInit = () => {
       if (typeof window.Jupiter !== 'undefined') {
         window.Jupiter.init({
           displayMode: 'widget',
@@ -20,7 +20,10 @@ export default function JupiterWidget() {
           },
         })
       }
-    })
+    }
+    // Wait a bit for script and div to exist
+    const timer = setTimeout(tryInit, 500)
+    return () => clearTimeout(timer)
   }, [])
 
   return (
@@ -33,6 +36,9 @@ export default function JupiterWidget() {
           bottom: 24,
           left: 24,
           zIndex: 10000,
+          minWidth: 320,
+          minHeight: 200,
+          background: '#fff', // optional: helps visibility
         }}
       />
     </>
