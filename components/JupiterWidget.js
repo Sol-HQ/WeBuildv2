@@ -34,7 +34,7 @@ export default function JupiterWidget() {
         style={{
           position: 'fixed',
           bottom: 24,
-          left: 24,
+          right: 24,
           zIndex: 10000,
           minWidth: 320,
           minHeight: 200,
