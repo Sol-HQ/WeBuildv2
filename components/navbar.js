@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className="w-full">
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
-        {/* Logo  */}
+        {/* Logo KIT & Affirm  */}
         <Disclosure>
           {({ open }) => (
             <>
@@ -40,7 +40,7 @@ const Navbar = () => {
                   aria-label="Toggle Menu"
                   className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-200 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
                 >
-                  {/* ... */}
+                  {/* mint site button */}
                 </Disclosure.Button>
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
@@ -115,6 +115,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
 
