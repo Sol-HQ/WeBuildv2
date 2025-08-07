@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 const posts = [
   {
     title: "Ein Yo'",
-    image: "/img/user1.jpg",
+    image: "/img/user2q.png",
     content: "One Bridge.",
   },
   {
