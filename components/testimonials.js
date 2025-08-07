@@ -27,7 +27,7 @@ const Testimonials  = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-300 px-10 rounded-2xl py-5 dark:bg-trueGray-800">
             <p className="text-3xl leading-normal ">
-              board here 
+              Your Board Here! 
             </p>
             <Avatar
               image={userTwoImg}
@@ -39,7 +39,7 @@ const Testimonials  = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-200 px-10 rounded-2xl py-5 dark:bg-trueGray-800">
             <p className="text-3xl leading-normal ">
-              This is the way... board here
+              This is the way... your board here
             </p>
             <Avatar
               image={userThreeImg}
@@ -85,4 +85,5 @@ function Mark(props) {
 }
 
 export default Testimonials;
+
 
