@@ -21,9 +21,6 @@ export default function JupiterWidget() {
         })
       }
     }
-    // Wait a bit for script and div to exist
-    const timer = setTimeout(tryInit, 500)
-    return () => clearTimeout(timer)
   }, [])
 
   return (
