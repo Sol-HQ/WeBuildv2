@@ -5,7 +5,7 @@ import {
   AdjustmentsHorizontalIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../public/img/benefit-one.png";
+import benefitOneImg from "../public/img/user5.jpg";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
@@ -46,6 +46,7 @@ const benefitTwo = {
 
 
 export {benefitOne, benefitTwo};
+
 
 
 
