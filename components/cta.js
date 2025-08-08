@@ -2,7 +2,7 @@ import React from "react";
 import Container from "./container";
 //update august 5
 const Cta = () => {
-  return (
+  return ()
     <Container>
 <Container>
   <div className="flex flex-col w-full max-w-6xl mx-auto text-white bg-indigo-600 px-7 py-7 lg:px-12 lg:py-12 rounded-xl">
