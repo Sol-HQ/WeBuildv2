@@ -7,7 +7,7 @@ export default function JupiterWidget() {
       if (window.Jupiter) {
         window.Jupiter.init({
           displayMode: 'widget',
-          endpoint: 'https://mainnet.helius-rpc.com/?api-key=6cf235c9-8b64-4e86-bede-fbf0fd688c9f',
+          endpoint: process.env.NEXT_PUBLIC_JUPITER_ENDPOINT,
           containerName: 'jupiter-terminal',
           refetchIntervalForTokenAccounts: 10,
           strictTokenList: false,
