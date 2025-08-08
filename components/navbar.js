@@ -33,7 +33,7 @@ const Navbar = () => {
                         className="w-8"
                       />
                     </span>
-                    <span>Affirm</span>
+                    <span>Affirmament KIT.e</span>
                   </span>
                 </Link>
                 <Disclosure.Button
@@ -115,6 +115,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
 
