@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/user4.png";
+import user4Img from "../public/img/user4.png";
 //update august 5
 const Hero = () => {
   return (
@@ -73,6 +73,7 @@ const Hero = () => {
 }
 
 export default Hero;
+
 
 
 
