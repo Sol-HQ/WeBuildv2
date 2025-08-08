@@ -11,7 +11,7 @@ const Hero = () => {
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-700 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-blue-950">
             Art & Life, The Colors & The Chords...
             </h1>
-            <p className="py-5 text-xl leading-normal text-darkblue-600 lg:text-xl xl:text-2xl dark:text-yellow-700">
+            <p className="py-5 text-xl leading-normal lg:text-xl xl:text-2xl dark:text-yellow-700">
             Minting: Pilot K.i.t.e. NFT's (limited)<br />
             Digital & Abstract, Generative Art, Progressive<br />
             Pilot Coin & K.i.t.e Collection on Solana BlockChain<br />
@@ -73,6 +73,7 @@ const Hero = () => {
 }
 
 export default Hero;
+
 
 
 
