@@ -6,7 +6,7 @@ import {
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../public/img/user5.jpg";
-import benefitTwoImg from "../public/img/benefit-two.png";
+import benefitTwoImg from "../public/img/user7.jpg";
 
 const benefitOne = {
   title: "Light Work",
@@ -46,6 +46,7 @@ const benefitTwo = {
 
 
 export {benefitOne, benefitTwo};
+
 
 
 
