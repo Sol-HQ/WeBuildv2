@@ -62,6 +62,7 @@ const Navbar = () => {
                       KITE NFT 1SOL 1JUP 4/24
                     </Link>
                   </>
+                  <ThemeChanger />
                 </Disclosure.Panel>
               </div>
             </>
