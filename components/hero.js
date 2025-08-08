@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/hero.png";
+import heroImg from "../public/img/user4.png";
 //update august 5
 const Hero = () => {
   return (
@@ -57,7 +57,7 @@ const Hero = () => {
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src={heroImg}
+              src={user4Img}
               width="630"
               height="610"
               className={"object-cover"}
@@ -73,6 +73,7 @@ const Hero = () => {
 }
 
 export default Hero;
+
 
 
 
