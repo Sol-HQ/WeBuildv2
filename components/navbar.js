@@ -33,7 +33,7 @@ const Navbar = () => {
                         className="w-8"
                       />
                     </span>
-                    <span>Affirmament KIT.e</span>
+                    <span>Affirm</span>
                   </span>
                 </Link>
                 <Disclosure.Button
@@ -57,7 +57,7 @@ const Navbar = () => {
                       href="https://www.affirmamint.cloud"
                       className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5"
                     >
-                      K.i.t.e.NFT 1SOL_1JUP 4/24
+                      KITE NFT 1SOL 1JUP 4/24
                     </Link>
                   </>
                 </Disclosure.Panel>
@@ -115,6 +115,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
 
