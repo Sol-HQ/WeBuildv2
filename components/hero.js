@@ -25,7 +25,7 @@ const Hero = () => {
                 href="https://www.affirmamint.cloud"
                 target="_blank"
                 rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-green-950 rounded-md ">
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-blue-950 rounded-md ">
                 K.i.t.e.NFT MintLive
               </a>
               <a
@@ -41,7 +41,7 @@ const Hero = () => {
                 href="https://jup.ag/tokens/EtYGHRkV9ZW7oAhNvspktvPdb4nxPq1UDBBNCpvwjups"
                 target="_blank"
                 rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-green-900 rounded-md ">
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-blue-950 rounded-md ">
                 Pilot Coin
               </a>
               <a
@@ -73,6 +73,7 @@ const Hero = () => {
 }
 
 export default Hero;
+
 
 
 
