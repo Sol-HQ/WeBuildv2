@@ -14,7 +14,7 @@ const Hero = () => {
             <p className="py-5 text-xl leading-normal lg:text-xl xl:text-2xl dark:text-yellow-700">
             Minting: Pilot K.i.t.e. NFT's (limited)<br />
             Digital & Abstract, Generative Art, Progressive<br />
-            Pilot Coin & K.i.t.e Collection on Solana BlockChain<br />
+            Pilot Coin & Kite Collection on Solana BlockChain<br />
             Home for The Digital Art's...<br />
             Token Mint is Live on Jup.ag<br />
             P.A.EtYGHRkV9ZW7oAhNvspktvPdb4nxPq1UDBBNCpvwjups
@@ -26,7 +26,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-blue-950 rounded-md ">
-                K.i.t.e.NFT MintLive
+                Kite NFT MintLive
               </a>
               <a
                 href="https://www.affirmamint.cloud"
@@ -73,6 +73,7 @@ const Hero = () => {
 }
 
 export default Hero;
+
 
 
 
