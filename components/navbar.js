@@ -74,8 +74,19 @@ const Navbar = () => {
 <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
   {/* Back/Forward buttons */}
   <li className="mr-3 nav__item flex items-center space-x-2">
-    // ... Forward/Back buttons ...
-  </li>
+  <button
+    onClick={() => router.back()}
+    className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none"
+  >
+    Back
+  </button>
+  <button
+    onClick={() => router.forward && router.forward()}
+    className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none"
+  >
+    Forward
+  </button>
+</li>
 </ul>
 {/* Desktop navigation links */}
 <div className="hidden lg:flex items-center">
