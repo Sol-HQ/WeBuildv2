@@ -69,7 +69,7 @@ const Navbar = () => {
         </Disclosure>
                     
         {/* menu  */}
-        <div className="hidden text-center lg:flex lg:items-center">
+        <div className="text-center lg:flex lg:items-center">
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
             {/* Back/Forward buttons */}
             <li className="mr-3 nav__item flex items-center space-x-2">
