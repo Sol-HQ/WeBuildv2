@@ -40,7 +40,12 @@ const Navbar = () => {
                   aria-label="Toggle Menu"
                   className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-200 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
                 >
-                  {/* mint site button */}
+  <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+  </svg>
+</Disclosure.Button>
+
+
                 </Disclosure.Button>
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
